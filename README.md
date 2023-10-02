@@ -85,3 +85,12 @@
 - const nuevoObjeto = Object.assign(producto, cliente); Devuelve un nuevo objeto con la información mezclada y unida, altera el modelo producto y cliente, no es una buena práctica en react.
 - const nuevoObjeto2 = {...producto, ...cliente} // ... spread operator, significa tomar una copia de un objeto. Sin embargo; si ambos comparten una misma propiedad, se pierden datos, lo recomendable es lo siguiente:
 - const nuevoObjeto2 = { producto: {...producto}, cliente: {...cliente}}; Crea dos objetos dentro de uno solo, sin perder o modificar los arreglos originales.
+
+### Vídeo 18 Introducción a arreglos
+
+- Un arreglo puede contener mucha información, puede ser de tipos de datos mezclados.
+- const tecnologías = [20, 30, true, 'react'];
+- console.log(typeof tecnologias) //object
+- Para acceder al valor de un arreglo, se tiene que hacer mediante la posición. 
+- console.log( tecnologias[2], tecnologias[3] ) //true, react
+- console.log( tecnologias.toString()) //20,30,true,react
