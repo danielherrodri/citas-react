@@ -113,3 +113,9 @@
 - const nuevoArray = tecnologias.filter( function (info) { return info != 'html'}) //Devuelve un array donde no se encuentre el elemento hmtl 
 - const nuevoArray = tecnologias.map( function (info) { if(info == 'html') { return 'GraphQL';} else { return info} }) //Devuelve un array, permite alterar los elementos.
 - tecnologias[0] = 'GraphQL' //Modifica el arreglo original
+
+### Vídeo 20 Destructuring de arrays
+- Al igual que en los objetos, podemos extraer el valor de un array mediante destructuring de arrays.
+- const tecnologias = ['html', 'css', 'JavaScript', 'React', 'NodeJs'];
+- const [posicion0, posicion1, posicion2] = tecnologias; // html, css, JavaScript
+- Para obtener la posición deseada "JavaScript", sería muy tedioso además de tener variables que no deseamos, como posicion0 y posicion1. Para ello está la siguiente forma: const [,,posicion2] = tecnologias; //JavaScript, cada coma es una posición.
