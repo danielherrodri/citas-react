@@ -94,3 +94,22 @@
 - Para acceder al valor de un arreglo, se tiene que hacer mediante la posición. 
 - console.log( tecnologias[2], tecnologias[3] ) //true, react
 - console.log( tecnologias.toString()) //20,30,true,react
+
+### Vídeo 19 Manipulación de Arrays
+
+- const tecnologias = ['html', 'css', 'JavaScript', 'React', 'NodeJs'];
+- Añadir elementos al array: tecnologias.push('GraphQL') //Agrega elementos al final del arreglo
+- Añadir elementos al array al inicio: tecnologias.unshift('GraphQL'); // GraphQL, html, css, JavaScript
+- Lo anterior está modificando el arreglo original, en react esto no está permitido.
+- const nuevoArreglo = [...tecnologias, 'GraphQL'] //copia del arreglo original y agrega elemento al final
+- const nuevoArreglo = ['GraphQL', ...tecnologias] //copia del arreglo original y agrega elemento al inicio
+- Eliminar elementos de un array: tecnologias.pop() //NodeJS, elimina el último elemento
+- Eliminar primer elemento de un array: tecnologias.shift() //html eliminado
+- Para eliminar un elemento dentro de un arreglo mediante la posición, tecnologias.splice(2, 1) //Primer argumento, a partir de que indice deseas eliminar, segundo argumento a partir del seleccionado cuántos elementos eliminará.
+
+-**Ejemplos**
+- Eliminar elementos de un arreglo que no sea el arreglo original.
+- const nuevoArray = tecnologias.filter( function (info) { console.log(info)}) //Itera sobre el arreglo, filtra información y devuelve uno nuevo.
+- const nuevoArray = tecnologias.filter( function (info) { return info != 'html'}) //Devuelve un array donde no se encuentre el elemento hmtl 
+- const nuevoArray = tecnologias.map( function (info) { if(info == 'html') { return 'GraphQL';} else { return info} }) //Devuelve un array, permite alterar los elementos.
+- tecnologias[0] = 'GraphQL' //Modifica el arreglo original
