@@ -52,3 +52,14 @@
 - Quiero imprimir el nombre, se haría de la siguiente forma: console.log(producto.nombre) //'Laptop Hp Pavillion 13'
 - Podemos realizar destructuring de un objeto de la siguiente forma: const { nombre, precio, disponible} = producto; El valor de las propiedades de la clase, se inserta en las variables declaradas. Básicamente realiza dos pasos en uno solo, crea la variable y asigna la información. 
 -- Object literal Enhacement, nos ahorra pasos de más mientras la variable se llame igual que las propiedades. const autenticado= true; const usuario = 'drodriguez'; const nuevoObjeto = {autenticado, usuario};
+
+### Vídeo 15 Manipulación de Objetos
+
+- Para modificar el valor de los objetos, es necesario acceder a ellos a través del punto. Un ejemplo claro sería el siguiente: 
+- const producto = {nombre: "Tablet", precio: 300, disponible: true}
+- producto.nombre = "IPhone 14 pro";
+- Si el objeto no contiene una propiedad, en este caso la imagen, y deseamos agregarla. El sistema agregará al objeto presente la propiedad que no estuvo declarada desde un inicio.
+- producto.imagen = 'celular.jpg'; console.log(producto) // producto:{ nombre: "IPhone 14 pro", precio: 300, disponible:true, imagen: 'celular.jpg'}
+- JavaScritp al intentar eliminar propiedades que no existen, o agregar propiedades no lanzará ningún tipo de error.
+- Existe un método dentro de la clase Object de JavaScript, Object.freeze(producto), lo cuál impide que se realice cualquier tipo de modificación o eliminación a los valores de una clase a la que se le haya aplicado esa funcionalidad.
+- Object.seal(producto), permite reescribir las propiedades existentes, pero no permite añadir nuevas o eliminarlas.
