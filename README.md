@@ -63,3 +63,16 @@
 - JavaScritp al intentar eliminar propiedades que no existen, o agregar propiedades no lanzará ningún tipo de error.
 - Existe un método dentro de la clase Object de JavaScript, Object.freeze(producto), lo cuál impide que se realice cualquier tipo de modificación o eliminación a los valores de una clase a la que se le haya aplicado esa funcionalidad.
 - Object.seal(producto), permite reescribir las propiedades existentes, pero no permite añadir nuevas o eliminarlas.
+
+### Vídeo 16 Destructuring de 2 o más objetos
+-Permite extraer información de un objeto en variables.
+
+- **Ejemplos**
+- const producto = {nombre: "Tablet", precio: 300, disponible: true};
+- const cliente = {nombre: 'Juan', premium: true};
+- const {nombre, precio, disponible} = producto;
+- console.log(nombre, precio, disponible) //Tablet 300 true
+- const {nombre, premium} = cliente; // Error, no puede haber dos propiedades en destructuring con el mismo nombre.
+- La solución es aplicar un alias en destructuring. const {nombre: nombreCliente , permium} = cliente;
+- console.log(nombre) // Tablet
+- console.log(nombreCliente) // Juan
