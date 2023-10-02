@@ -76,3 +76,12 @@
 - La solución es aplicar un alias en destructuring. const {nombre: nombreCliente , permium} = cliente;
 - console.log(nombre) // Tablet
 - console.log(nombreCliente) // Juan
+
+### Vídeo 17 Unir 2 o más objetos
+- Unir dos objetos para almacenar
+
+- const producto = {nombre: "Tablet", precio: 300, disponible: true};
+- const cliente = {nombre: 'Juan', premium: true};
+- const nuevoObjeto = Object.assign(producto, cliente); Devuelve un nuevo objeto con la información mezclada y unida, altera el modelo producto y cliente, no es una buena práctica en react.
+- const nuevoObjeto2 = {...producto, ...cliente} // ... spread operator, significa tomar una copia de un objeto. Sin embargo; si ambos comparten una misma propiedad, se pierden datos, lo recomendable es lo siguiente:
+- const nuevoObjeto2 = { producto: {...producto}, cliente: {...cliente}}; Crea dos objetos dentro de uno solo, sin perder o modificar los arreglos originales.
