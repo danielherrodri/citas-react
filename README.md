@@ -152,3 +152,6 @@
 - Foreach, para iterar elementos.
 - Map, para retornar un nuevo arreglo.
 - Verificar cuál de estos métodos muta el arreglo original, evitar los que mutan en react.
+
+### Vídeo 29 Condicionales If
+- Nos permite realizar evaluaciones sobre una condición para ejecutar cierto código. En caso contrario, se utiliza el else. Los operadores que existe son, mayor que, menor que, igual, mayor o igual, menor o igual, diferente de. 
