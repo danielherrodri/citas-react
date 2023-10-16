@@ -128,3 +128,6 @@
 
 ### Vídeo 23 Funciones - Parámetros y parámetros por default.
 - Para pasar parametros a una función, debe ser dentro del parentesís. En caso de ser dos o más parámetros, se deben separar por una coma, o bien mandarlo dentro de un objeto. Parámetros son los que reciben la información en un método, y argumentos la información que se envía a la función.
+
+### Vídeo 24 Funciones que retornan valores
+- Es el resultado que devuelven las funciones, podemos devolver un valor, arreglo u objeto.
