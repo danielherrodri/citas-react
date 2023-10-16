@@ -125,3 +125,6 @@
 
 ### Vídeo 22 Funciones - Function declaration
 - Las funciones no inician con número y deben tener la palabra function al inicio. Si son dos o más palabras, se utiliza camelCase. Los nombres de las funciones deben ser descriptivas, todo lo que se encuentra dentro de las llaves pertenece a la función. Una vez definida, necesitamos mandar a llamar la función. Podemos mandarla a llamar antes de declarar en JavaScript, debido al hoisting, que permite escanear funciones y variables antes de ser declaradas.
+
+### Vídeo 23 Funciones - Parámetros y parámetros por default.
+- Para pasar parametros a una función, debe ser dentro del parentesís. En caso de ser dos o más parámetros, se deben separar por una coma, o bien mandarlo dentro de un objeto. Parámetros son los que reciben la información en un método, y argumentos la información que se envía a la función.
