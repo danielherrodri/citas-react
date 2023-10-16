@@ -119,3 +119,6 @@
 - const tecnologias = ['html', 'css', 'JavaScript', 'React', 'NodeJs'];
 - const [posicion0, posicion1, posicion2] = tecnologias; // html, css, JavaScript
 - Para obtener la posición deseada "JavaScript", sería muy tedioso además de tener variables que no deseamos, como posicion0 y posicion1. Para ello está la siguiente forma: const [,,posicion2] = tecnologias; //JavaScript, cada coma es una posición.
+
+### Vídeo 21 Iteradores de Arreglos
+- Podemos iterar con un for, foreach, map. Se ejecutan una vez por cada elemento existente. Map es similar a foreach, en react map es mas utilizado debido a que nos permite crear un nuevo arreglo sin alterar el original. Foreach recorre datos, y map te devuelve un nuevo arreglo.
