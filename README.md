@@ -137,3 +137,6 @@
 
 ### Vídeo 26 Funciones - Arrow functions
 - Te permiten definir de manera compacta una función convencional. Si la función tiene solamente una sentencia que devuelve un valor, el uso de funciones flecha nos permite eliminar las llaves y la palabra return. También podemos eliminar el parentesís y solamente requerimos un parámetro.
+
+### Vídeo 27 Arrow functions y Array methods
+- El método tradicional, requiere definir la palabra function para recibir parámetros, podemos omitirlo con un parentesís. Estás propiedades, las podemos aplicar a los métodos array, map y filter por ejemplo. La finalidad es tener un código más limpio y compacto.
