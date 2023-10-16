@@ -122,3 +122,6 @@
 
 ### Vídeo 21 Iteradores de Arreglos
 - Podemos iterar con un for, foreach, map. Se ejecutan una vez por cada elemento existente. Map es similar a foreach, en react map es mas utilizado debido a que nos permite crear un nuevo arreglo sin alterar el original. Foreach recorre datos, y map te devuelve un nuevo arreglo.
+
+### Vídeo 22 Funciones - Function declaration
+- Las funciones no inician con número y deben tener la palabra function al inicio. Si son dos o más palabras, se utiliza camelCase. Los nombres de las funciones deben ser descriptivas, todo lo que se encuentra dentro de las llaves pertenece a la función. Una vez definida, necesitamos mandar a llamar la función. Podemos mandarla a llamar antes de declarar en JavaScript, debido al hoisting, que permite escanear funciones y variables antes de ser declaradas.
