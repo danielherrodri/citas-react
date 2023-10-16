@@ -140,3 +140,15 @@
 
 ### Vídeo 27 Arrow functions y Array methods
 - El método tradicional, requiere definir la palabra function para recibir parámetros, podemos omitirlo con un parentesís. Estás propiedades, las podemos aplicar a los métodos array, map y filter por ejemplo. La finalidad es tener un código más limpio y compacto.
+
+### Vídeo 28 Otros array methods útiles
+- Every, retorna true o false si todos los elementos cumplen una condición.
+- Filter devuelve aquellos elementos que cumplen con una condición, pueden ser uno o más.
+- Includes, devuelve true o false si un elemento existe en un array.
+- Some, devuelve true o false si al menos algún elemento del array cumple con la condición.
+- Find, devuelve el primer elemento que cumpla la condición.
+- Reduce, realiza la suma de todos los elementos en vez de implementar un for.
+- Filter, crea un nuevo array en base a una condición.
+- Foreach, para iterar elementos.
+- Map, para retornar un nuevo arreglo.
+- Verificar cuál de estos métodos muta el arreglo original, evitar los que mutan en react.
