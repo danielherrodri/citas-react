@@ -134,3 +134,6 @@
 
 ### Vídeo 25 Funciones Function Expression
 - La diferencia entre function expression y function declaration, radica en que una usa la palabra function, mientras que la otra es similar a una variable. Estamos asignando una función a una constante. Las funciones expression, se deben declarar primero y después mandarlas a llamar.
+
+### Vídeo 26 Funciones - Arrow functions
+- Te permiten definir de manera compacta una función convencional. Si la función tiene solamente una sentencia que devuelve un valor, el uso de funciones flecha nos permite eliminar las llaves y la palabra return. También podemos eliminar el parentesís y solamente requerimos un parámetro.
