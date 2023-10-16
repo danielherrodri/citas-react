@@ -130,4 +130,7 @@
 - Para pasar parametros a una función, debe ser dentro del parentesís. En caso de ser dos o más parámetros, se deben separar por una coma, o bien mandarlo dentro de un objeto. Parámetros son los que reciben la información en un método, y argumentos la información que se envía a la función.
 
 ### Vídeo 24 Funciones que retornan valores
-- Es el resultado que devuelven las funciones, podemos devolver un valor, arreglo u objeto.
+- Es el resultado que devuelven las funciones, podemos devolver un valor, arreglo u objeto. Lo más recomendable para extraer la información es con object destructuring en caso de ser un objeto.
+
+### Vídeo 25 Funciones Function Expression
+- La diferencia entre function expression y function declaration, radica en que una usa la palabra function, mientras que la otra es similar a una variable. Estamos asignando una función a una constante. Las funciones expression, se deben declarar primero y después mandarlas a llamar.
