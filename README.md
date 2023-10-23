@@ -171,3 +171,6 @@
 - Permite evaluar condiciones a través de una sintáxis corta, solo permite responder un if y else. En else podemos agregar otra condición, se recomienda únicamente para dos niveles, más de eso ocasionará confusión.
 - (autenticado) ? 'Si está logueado': 'No está logueado'.
 - Es muy utilizado en react.
+
+### Vídeo 33 Scope de variables 
+- Se refiere al alcance de las variables, si son globales o pertenecientes a un método. En Javascript no se pueden tener variables con el mismo nombre. Podemos crear la misma variable dentro de un if o dentro de una función, ya que el ciclo de vida termina al salir de las llaves.
