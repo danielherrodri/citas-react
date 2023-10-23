@@ -155,3 +155,10 @@
 
 ### Vídeo 29 Condicionales If
 - Nos permite realizar evaluaciones sobre una condición para ejecutar cierto código. En caso contrario, se utiliza el else. Los operadores que existe son, mayor que, menor que, igual, mayor o igual, menor o igual, diferente de. 
+
+### Vídeo 30 Condicionales con == y ===
+- Nos permite realizar validaciones, == valida valores, === valora que el tipo de dato sea igual que a la variable proporcionada.
+- == Comparación pero no estrictra
+- === Comparación estricta
+- Esto se puede comprobar con typeof
+- Podemos convertir el tipo de dato string a number con la clase Number.
