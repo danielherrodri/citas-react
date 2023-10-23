@@ -174,3 +174,6 @@
 
 ### Vídeo 33 Scope de variables 
 - Se refiere al alcance de las variables, si son globales o pertenecientes a un método. En Javascript no se pueden tener variables con el mismo nombre. Podemos crear la misma variable dentro de un if o dentro de una función, ya que el ciclo de vida termina al salir de las llaves.
+
+### Vídeo 34 Selectores del DOM - querySelector
+- Document es un objeto que hace referencia a todo el HTML que tiene la página. Para poder acceder a un elemento, se inicia con document.querySelector o querySelectorAll, el primero te trae de 0 a 1 elemento, el segundo todos los elementos que coinciden. Podemos acceder a través de id, html, clases o nombres, idéntico a CSS.
