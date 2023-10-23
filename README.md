@@ -184,3 +184,10 @@
 ### Vídeo 36 Manipular HTML con Js.
 -const heading = document.querySelector('.heading') //Accedemos al elemento heading, retorna un objeto.
 -Cada elemento tiene propiedades, como textContent, que nos permite modificar el titulo o texto de cualquier elemento, permite aplicar dinámismo en el html. Al impimir el elemento, podemos ver que tiene muchas propiedades que podemos utilizar. LLega ser útil con react para manipular el dom si tenemos un conjunto de datos.
+
+### Vídeo 37 Eventos del DOM - Clicks
+- JavaScript tiene eventos que permiten hacer aplicaciones dinámicas. El mover el mouse, presionar, o enviar un formulario, son eventos que se pueden detectar en JS. En este caso veremos el click, podemos seleccionar un elemento y añadirle un evento de la siguiente forma.
+- const heading = document.querySelector('.heading')
+- heading.addEventListener('click', ()>={ función callback })
+- El primer parámetro es el tipo de evento a asignar, el segundo parámetros es la función que ejecutará ese evento.
+- Funciona con arrow functions, no con function expressions.
