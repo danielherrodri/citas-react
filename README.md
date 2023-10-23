@@ -180,3 +180,7 @@
 
 ### Vídeo 35 Selectores del DOM - querySelectorAll
 -Nos permite listar todos los elementos que conciden en la condición que se encuentran en querySelectorAll. Devuelve un arreglo de elementos, podemos iterar sobre los elementos si se desea. Para ello se tiene que utilizar forEach y acceder individualmente al objeto.
+
+### Vídeo 36 Manipular HTML con Js.
+-const heading = document.querySelector('.heading') //Accedemos al elemento heading, retorna un objeto.
+-Cada elemento tiene propiedades, como textContent, que nos permite modificar el titulo o texto de cualquier elemento, permite aplicar dinámismo en el html. Al impimir el elemento, podemos ver que tiene muchas propiedades que podemos utilizar. LLega ser útil con react para manipular el dom si tenemos un conjunto de datos.
