@@ -177,3 +177,6 @@
 
 ### Vídeo 34 Selectores del DOM - querySelector
 - Document es un objeto que hace referencia a todo el HTML que tiene la página. Para poder acceder a un elemento, se inicia con document.querySelector o querySelectorAll, el primero te trae de 0 a 1 elemento, el segundo todos los elementos que coinciden. Podemos acceder a través de id, html, clases o nombres, idéntico a CSS.
+
+### Vídeo 35 Selectores del DOM - querySelectorAll
+-Nos permite listar todos los elementos que conciden en la condición que se encuentran en querySelectorAll. Devuelve un arreglo de elementos, podemos iterar sobre los elementos si se desea. Para ello se tiene que utilizar forEach y acceder individualmente al objeto.
