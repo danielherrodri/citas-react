@@ -191,3 +191,12 @@
 - heading.addEventListener('click', ()>={ función callback })
 - El primer parámetro es el tipo de evento a asignar, el segundo parámetros es la función que ejecutará ese evento.
 - Funciona con arrow functions, no con function expressions.
+
+### Vídeo 38 Eventos del DOM - Input
+- Muy útil para saber lo que el usuario estpa ingresando en la plataforma. En el momento en el que seleccionas un elementos, puedes modificar cualquiera de sus atributos html. Podemos modificar el tipo de input desde JS. 
+- const inputNombre = document.querySelector('.nombre')
+- inputNombre.type = 'password'
+- Incluso podemos asignar un evento al input, donde podemos detectar los valores que el usuario está ingresando en el input.
+- Keydown, se ejecuta al presionar una tecla.
+- Keyup, se ejecuta cuando presiona y se deja de presionar una tecla.
+- La variable e, dentro de un eventListener, permite capturar el evento y la información modificada. Target es donde viene el input completo para tener acceso al value, target.value.
