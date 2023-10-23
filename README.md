@@ -162,3 +162,7 @@
 - === Comparación estricta
 - Esto se puede comprobar con typeof
 - Podemos convertir el tipo de dato string a number con la clase Number.
+
+### Vídeo 31 Condicionales || y &&
+- Permite realizar múltiples evaluaciones, donde al cumplirse la primera las demás no se evualarán (||)
+- Permite realizar múltiples evaluaciones, donde al cumplirse todas las condiciones se marcarán como true. (&&)
