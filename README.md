@@ -200,3 +200,6 @@
 - Keydown, se ejecuta al presionar una tecla.
 - Keyup, se ejecuta cuando presiona y se deja de presionar una tecla.
 - La variable e, dentro de un eventListener, permite capturar el evento y la información modificada. Target es donde viene el input completo para tener acceso al value, target.value.
+
+### Vídeo 39 Eventos del DOM - Submit
+- Evento que se ejecuta el enviar un formulario, podemos capturar el evento antes de la redirección para validar que los campos ingresados vayan correctamente validados o realizar un trozo de código antes de enviar. Mediante el e.preventDefault(), permite prevenir la acción por default del evento. 
