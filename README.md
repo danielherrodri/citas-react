@@ -166,3 +166,8 @@
 ### Vídeo 31 Condicionales || y &&
 - Permite realizar múltiples evaluaciones, donde al cumplirse la primera las demás no se evualarán (||)
 - Permite realizar múltiples evaluaciones, donde al cumplirse todas las condiciones se marcarán como true. (&&)
+
+### Vídeo 32 Condicionales - Ternarios
+- Permite evaluar condiciones a través de una sintáxis corta, solo permite responder un if y else. En else podemos agregar otra condición, se recomienda únicamente para dos niveles, más de eso ocasionará confusión.
+- (autenticado) ? 'Si está logueado': 'No está logueado'.
+- Es muy utilizado en react.
