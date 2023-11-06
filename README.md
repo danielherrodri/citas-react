@@ -228,3 +228,9 @@
 - En este tipo de funciones, las funciones deben declararse como asíncronas. Para ello la palabra reservada async, debido a que dentro del código se utilizará la palabra reservada await. 
 - Permite esperar a que el código termine para continuar con la ejecución del código.
 - Await bloquea el código, previene que las líneas siguiente se ejecuten. Una vez obtenida la información continua la ejecución.
+
+### Vídeo 44 Múltiples Async/Await performance
+- Al consultar múltiples funciones con el método asíncrono async await. Por lo cuál toma demasiado tiempo al consultar la información.
+Para ello es necesario utilizar el concepto paralelo, únicamente considerarlo para funciones que no dependen de si mismos. 
+- Promise.all([fetch(url1)], [fecth(url2)]). Inicia la ejecución en paralelo, permitiendo ejecutarlos al mismo timempo y reducir el tiempo de ejecución. 
+- Para medir el performance, performance.now(). Nos devuelve el tiempo de ejecución.
