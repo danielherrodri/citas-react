@@ -209,3 +209,11 @@
 - Para la creación de tags, se utiliza el nombre TAGNAME en mayúscula. document.createElement('DIV')
 - Las clases tienen propiedades, agregar tipo, alt, id, class.
 - El método .add, nos permite agregar valores de clase a un elemento.
+
+### Vídeo 41 Imports y Exports
+- JavaScript nos permite dividir los trozos de código de forma nativa, en versiones anteriores no era posible. 
+- Podemos tener un archivo de funciones, donde estás funciones son llamadas por distintos archivos js.
+- La sintáxis a implementar es import [nombre_funcion] from [ubicación dentro del proyecto].js, en react no es necesario especificar el .js al final.
+- Para mandar a llamar estos archivos es necesario especificar el type="module" en el tag script.
+- Solo podemos tener un export default por documento.
+- Para exportar más de una función se puede utilizar export { funcion1, funcion2}
