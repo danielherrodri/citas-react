@@ -218,8 +218,13 @@
 - Solo podemos tener un export default por documento.
 - Para exportar más de una función se puede utilizar export { funcion1, funcion2}
 
-### Fetch API y Promises
+### Vídeo 42 Fetch API y Promises
 - La nueva API que reemplaza Ajax o el XHMLHttpRequest. Una nueva forma de consumir una api o servicio hospedado en otro servidor.
 - Ya viene nativamente en el navegador, no es necesario descargar un recurso.
 - El método fetch requiere una url fecth("https://localhost"), then(respuesta) contiene la respuesta del servidor, incluye el código de la petición así como funciones que podemos utilizar, la más común es json().
 - En estas peticiones las arrows functions son las más recomendadas.
+
+### Vídeo 43 Fetch API con Async Await
+- En este tipo de funciones, las funciones deben declararse como asíncronas. Para ello la palabra reservada async, debido a que dentro del código se utilizará la palabra reservada await. 
+- Permite esperar a que el código termine para continuar con la ejecución del código.
+- Await bloquea el código, previene que las líneas siguiente se ejecuten. Una vez obtenida la información continua la ejecución.
