@@ -234,3 +234,9 @@
 Para ello es necesario utilizar el concepto paralelo, únicamente considerarlo para funciones que no dependen de si mismos. 
 - Promise.all([fetch(url1)], [fecth(url2)]). Inicia la ejecución en paralelo, permitiendo ejecutarlos al mismo timempo y reducir el tiempo de ejecución. 
 - Para medir el performance, performance.now(). Nos devuelve el tiempo de ejecución.
+
+### Vídeo 45 Template strings
+- Es una forma de concatenar variables con strings incluso funciones.
+- Es necesario utilizar este tipo de comillas ``. Para incrustar una variable, se requiere utilizar la siguiente sintáxis: console.log(` La variable es ${variable}`); -- Backtips
+- El motivo de este funcionamiento es evitar el código ilegible, ya que anteriormente se concatenaban strings y variables con el símbolo de +.
+-
