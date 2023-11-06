@@ -217,3 +217,9 @@
 - Para mandar a llamar estos archivos es necesario especificar el type="module" en el tag script.
 - Solo podemos tener un export default por documento.
 - Para exportar más de una función se puede utilizar export { funcion1, funcion2}
+
+### Fetch API y Promises
+- La nueva API que reemplaza Ajax o el XHMLHttpRequest. Una nueva forma de consumir una api o servicio hospedado en otro servidor.
+- Ya viene nativamente en el navegador, no es necesario descargar un recurso.
+- El método fetch requiere una url fecth("https://localhost"), then(respuesta) contiene la respuesta del servidor, incluye el código de la petición así como funciones que podemos utilizar, la más común es json().
+- En estas peticiones las arrows functions son las más recomendadas.
