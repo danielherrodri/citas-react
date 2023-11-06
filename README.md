@@ -203,3 +203,9 @@
 
 ### Vídeo 39 Eventos del DOM - Submit
 - Evento que se ejecuta el enviar un formulario, podemos capturar el evento antes de la redirección para validar que los campos ingresados vayan correctamente validados o realizar un trozo de código antes de enviar. Mediante el e.preventDefault(), permite prevenir la acción por default del evento. 
+
+### Vídeo 40 Generando código HTML con JavaScript
+- A través del uso de JavaScript podemos hacer inserciones de código HTML al DOM. Para ello se utiliza el método createElement.
+- Para la creación de tags, se utiliza el nombre TAGNAME en mayúscula. document.createElement('DIV')
+- Las clases tienen propiedades, agregar tipo, alt, id, class.
+- El método .add, nos permite agregar valores de clase a un elemento.
