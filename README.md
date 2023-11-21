@@ -239,4 +239,9 @@ Para ello es necesario utilizar el concepto paralelo, únicamente considerarlo p
 - Es una forma de concatenar variables con strings incluso funciones.
 - Es necesario utilizar este tipo de comillas ``. Para incrustar una variable, se requiere utilizar la siguiente sintáxis: console.log(` La variable es ${variable}`); -- Backtips
 - El motivo de este funcionamiento es evitar el código ilegible, ya que anteriormente se concatenaban strings y variables con el símbolo de +.
--
+
+### Vídeo 52 Qué es JSX
+- Es una extensión del lenguaje desarrollada por Facebook para react. Es un lenguaje de templates que muestra HTML con todas las funciones de JavaScript. Una vez compilado todos estos archivos pasan a ser JS con funciones y objetos.
+- A diferencia de HTML, en JSX si una etiqueta HTML tiene apertura, debe llevar forzosamente una de cierre.
+- Las etiquetas de solo apertura son link, img, input, deberán finalizar con />.
+- Cada componente deberá llevar return. Máximo un solo elemento en el nivel más alto.
